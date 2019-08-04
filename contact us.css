@@ -1,0 +1,103 @@
+body{
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	color: #44457b;
+	background-color: #ebebeb; 
+}
+#orange-shape{
+	position: relative;
+	color: orange;
+	background: #e94f2b;
+	width: 50%;
+	height: 100%;
+	transform: translate(-105px) skewX(-30deg);
+}
+
+#orange-shape a{
+	transform: skewX(30deg);
+}
+
+#orange-shape img{
+	width: 45px;
+	height: 60px;
+}
+
+nav{
+	background: #ebebeb;
+	line-height: 2.5;
+	/*opacity: 0.9;*/
+}
+
+#navbarToggler .navbar-nav .nav-item .nav-link{
+	color: #44457b;
+	transition: 700ms;
+	border-bottom: 1px solid transparent;
+}
+
+#navbarToggler .navbar-nav .nav-item .nav-link:hover{
+	color: #e94f2b;
+	/*text-decoration: underline;*/
+	transition: 0.7s;
+	border-color: #e94f2b; 
+}
+
+.navbar .dropdown-menu{
+	transform: skewX(-10deg);
+	left: -43px;
+}
+
+#purple-shape{
+	display: inline-block;
+	padding: 15px;
+	left: 18.8%;
+	position: relative;
+	background: #44457b;
+	width: 37px;
+	height: 9.75%;
+	transform: translate(-105px) skewX(-28deg);
+}
+
+.contactUsDiv{
+	position: relative;
+	/*opacity: 0.3;*/
+	background-image: url("Assets/logo.png");
+	background-size: 10% 56%;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*background-attachment: fixed;*/
+	/*line-height: 0.5;*/
+	height: 40%;
+	min-height: 40%;
+	margin-top: 70px;
+}
+
+.logoMask{
+	position: relative;
+	height: 100%;
+	background: #26262d;
+	opacity: 0.7;
+	/*padding: 6%;*/
+}
+
+.contactUsDiv .logoMask p{
+	position: absolute;
+	width: 100%;
+	color: white;
+	text-align: center; 
+	top: 34%;
+	word-spacing: 0.25rem;
+}
+
+.footerContactUs{
+	display: flex;
+	flex-direction: row;
+	padding: 3em;
+}
+
+.map img{
+	height: 80%;
+	width: 70%;
+	float: right;
+}

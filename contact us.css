@@ -96,8 +96,14 @@ nav{
 	padding: 3em;
 }
 
-.map img{
-	height: 80%;
+.mapDiv{
+	height: 100%;
 	width: 70%;
 	float: right;
+}
+
+.map{
+	height: 100%;
+	width: 80%;
+	margin-left: 7%;
 }

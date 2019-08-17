@@ -61,7 +61,8 @@ function main() {
 $('#myModal').on('shown.bs.modal', function (e) {
     
 // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
-  $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
+  $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0;");
+  $("iframe#video").contents().find('body').css("background-color", "red");
 });
 
 

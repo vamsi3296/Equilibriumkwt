@@ -102,8 +102,14 @@ nav{
 	float: right;
 }
 
-.map{
+/*.map{
 	height: 100%;
 	width: 80%;
 	margin-left: 7%;
+}*/
+
+.mapDiv iframe{
+	height: 100% !important;
+	margin-left: 7%;
+	width: 80%;
 }

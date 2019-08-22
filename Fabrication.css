@@ -1,10 +1,10 @@
 body{
+	margin-top: 100px;
 	width: 100vw;
 	height: 100vh;
 	overflow-x: hidden;
-	overflow-y: hidden;
+	overflow-y: scroll;
 	color: #44457b;
-	background-color: #ebebeb; 
 }
 #orange-shape{
 	position: relative;
@@ -57,9 +57,4 @@ nav{
 	width: 37px;
 	height: 9.75%;
 	transform: translate(-105px) skewX(-28deg);
-}
-
-.main-section{
-	margin-top: 5em;
-	padding: 5em;
 }

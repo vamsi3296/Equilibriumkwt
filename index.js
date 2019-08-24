@@ -1,4 +1,6 @@
-var imagesArray = ["Assets/Aqua.jpg",
+var imagesArray = ["Assets/sepco1.jpg",
+                   "Assets/sepco2.jpg",
+                   "Assets/Aqua.jpg",
                    "Assets/Piping.jpg",
                    "Assets/Fabrication.jpg",
                    "Assets/General Trading.jpg",

@@ -10,7 +10,8 @@ body{
 	position: relative;
 	color: orange;
 	background: #e94f2b;
-	width: 50%;
+	/*width: 50%;*/
+	width: 3.65%;
 	height: 100%;
 	transform: translate(-105px) skewX(-30deg);
 }
@@ -22,6 +23,7 @@ body{
 #orange-shape img{
 	width: 45px;
 	height: 60px;
+	margin-left: 0.5in;
 }
 
 nav{

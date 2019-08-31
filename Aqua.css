@@ -7,11 +7,10 @@ body{
 	color: #44457b;
 	padding-left: 16px;: 
 }
-#orange-shape{
+/*#orange-shape{
 	position: relative;
 	color: orange;
 	background: #e94f2b;
-	/*width: 50%;*/
 	width: 3.65%;
 	height: 100%;
 	transform: translate(-105px) skewX(-30deg);
@@ -25,8 +24,30 @@ body{
 	width: 45px;
 	height: 60px;
 	margin-left: 0.5in;
+}*/
+#orange-shape{
+	position: relative;
+	padding: 15px;
+	float: left;
+	color: orange;
+	background: #e94f2b;
+	/*width: 50%;*/
+	width: 3.65%;
+	height: 100%;
+	transform: translate(-105px) skewX(-30deg);
 }
 
+.container a{
+	margin-left: 0in;
+	/*transform: skewX(30deg);*/
+
+}
+
+.container img{
+	width: 45px;
+	height: 60px;
+	/*margin-left: 0.1in;*/
+}
 nav{
 	background: #ebebeb;
 	line-height: 2.5;

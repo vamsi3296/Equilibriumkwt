@@ -8,6 +8,8 @@ body{
 }
 #orange-shape{
 	position: relative;
+	padding: 15px;
+	float: left;
 	color: orange;
 	background: #e94f2b;
 	/*width: 50%;*/
@@ -16,16 +18,17 @@ body{
 	transform: translate(-105px) skewX(-30deg);
 }
 
-#orange-shape a{
-	transform: skewX(30deg);
+.container a{
+	margin-left: 0in;
+	/*transform: skewX(30deg);*/
+
 }
 
-#orange-shape img{
+.container img{
 	width: 45px;
 	height: 60px;
-	margin-left: 0.5in;
+	/*margin-left: 0.1in;*/
 }
-
 nav{
 	background: #ebebeb;
 	line-height: 2.5;

@@ -320,7 +320,7 @@ iframe html body video{
 and (min-width: 1030px)   
 and (max-width: 1366px)  {
 	#orange-shape{
-		left: 36px;
+		right: 36px;
 	}
 	#purple-shape{
 		left: 242px;

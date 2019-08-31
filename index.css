@@ -325,6 +325,19 @@ and (max-width: 1920px)  {
 	#purple-shape{
 		left: 5.5in;
 	}
+	.route3 div:nth-child(2){
+		margin-top: 0 !important;
+	}
+	.route3 div:nth-child(2) img{
+		margin-top: 0 !important;
+	}
+
+	.route1, .route2, .route3{
+		width: 70%;
+	} 
+	#enquiry{
+		margin-left: 38%;
+	}
 }
 
 @media only screen   
@@ -342,23 +355,28 @@ and (max-device-width : 1605px) {
 and (min-width: 1281px)   
 and (max-width: 1366px)  {
 	#orange-shape{
-		right: 36px;
+		width: 4.65%;
+		right: 54px;
 	}
 	#purple-shape{
-		left: 242px;
+		width: 45px;
+		left: 258px;
+	}
+	.route3 div:nth-child(2) img{
+		margin-top: 0 !important;
 	}
 }
 
 @media only screen   
 and (min-device-width : 768px)   
-and (max-device-width : 1024px) {
+and (max-device-width : 1279px) {
 	#orange-shape{
 		width: 4.65%;
-		right: -34px;
+		right: 11px;
 	}
 	#purple-shape{
 		width: 45px;
-		left: 179px;
+		left: 199px;
 	}
 
 	.route1 div:nth-child(2) div img{

@@ -314,3 +314,15 @@ iframe html body video{
   color:#fff;
   opacity:1;
 }
+
+
+@media only screen   
+and (min-width: 1030px)   
+and (max-width: 1366px)  {
+	#orange-shape{
+		left: 36px;
+	}
+	#purple-shape{
+		left: 242px;
+	}
+}

@@ -69,3 +69,14 @@ nav{
 	margin-top: 5em;
 	padding: 5em;
 }
+
+@media only screen   
+and (min-width: 1030px)   
+and (max-width: 1366px)  {
+	#orange-shape{
+		right: 36px;
+	}
+	#purple-shape{
+		left: 242px;
+	}
+}

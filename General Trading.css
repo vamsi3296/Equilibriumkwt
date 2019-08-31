@@ -145,3 +145,14 @@ nav{
 	max-width: 100%;
 	height: 400px;
 }
+
+@media only screen   
+and (min-width: 1030px)   
+and (max-width: 1366px)  {
+	#orange-shape{
+		right: 36px;
+	}
+	#purple-shape{
+		left: 242px;
+	}
+}

@@ -31,10 +31,10 @@ function roll(imagesArray, currentPos, max){
     return;
   }
   var slide = $('.parallax-mirror').find('img').attr('src', imagesArray[currentPos].src);
-  $('.parallax-window').find('button').fadeIn(1800)
-  slide.fadeIn(1800, function() {
-    $('.parallax-window').find('button').delay(2000).fadeOut(1800);
-    slide.delay(2000).fadeOut(1800, function() {
+  $('.parallax-window').find('button').delay(500).fadeIn(1800)
+  slide.delay(500).fadeIn(1800, function() {
+    $('.parallax-window').find('button').delay(500).fadeOut(1800);
+    slide.delay(500).fadeOut(1800, function() {
       currentPos++;
       if(currentPos >= imagesArray.length){
         currentPos = 0;

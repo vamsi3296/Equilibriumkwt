@@ -349,6 +349,9 @@ and (max-device-width : 1605px) {
 	#purple-shape{
 		left: 3.85in;
 	}
+	.route3 div:nth-child(2){
+		margin-top: 0 !important;
+	}
 }
 
 @media only screen   

@@ -317,7 +317,7 @@ iframe html body video{
 
 
 @media only screen   
-and (min-width: 1030px)   
+and (min-width: 1281px)   
 and (max-width: 1366px)  {
 	#orange-shape{
 		right: 36px;
@@ -325,4 +325,11 @@ and (max-width: 1366px)  {
 	#purple-shape{
 		left: 242px;
 	}
+}
+
+
+@media only screen   
+and (min-width: 1370px)  
+and (max-width: 1605px)  {
+	z
 }

@@ -31,8 +31,8 @@ function roll(imagesArray, currentPos, max){
     return;
   }
   var slide = $('.parallax-mirror').find('img').attr('src', imagesArray[currentPos].src);
-  $('.parallax-window').find('button').fadeIn(2500)
-  slide.fadeIn(2500, function() {
+  $('.parallax-window').find('button').fadeIn(1800)
+  slide.fadeIn(1800, function() {
     $('.parallax-window').find('button').delay(2000).fadeOut(1800);
     slide.delay(2000).fadeOut(1800, function() {
       currentPos++;

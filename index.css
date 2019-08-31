@@ -362,7 +362,7 @@ and (max-width: 1366px)  {
 		width: 45px;
 		left: 258px;
 	}
-	.route3 div:nth-child(2) img{
+	.route3 div:nth-child(2){
 		margin-top: 0 !important;
 	}
 }

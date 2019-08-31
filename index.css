@@ -360,6 +360,22 @@ and (max-device-width : 1024px) {
 		width: 45px;
 		left: 179px;
 	}
+
+	.route1 div:nth-child(2) div img{
+		height: 100% !important;
+	}
+
+	.route2 div img{
+		height: 100% !important;
+	}
+
+	.route3 div:nth-child(2){
+		margin-top: 7px !important;
+	}
+	.route3 div:nth-child(2) img{
+		height: 93% !important;
+		margin-top: 0 !important;
+	}
 }
 
 

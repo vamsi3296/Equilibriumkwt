@@ -352,9 +352,14 @@ and (max-device-width : 1605px) {
 	.route3 div:nth-child(2){
 		margin-top: 0 !important;
 	}
+	.route3 div:nth-child(2){
+		/*margin-top: 0 !important;*/
+		/*margin-bottom: 0 !important;*/
+	}
 	.route3 div:nth-child(2) img{
-		height: 93% !important;
-		margin-top: 0 !important;
+		/*height: 100% !important;*/
+		margin-top: 14px !important;
+		margin-bottom: 0 !important;
 	}
 }
 
@@ -373,8 +378,8 @@ and (max-width: 1366px)  {
 		margin-top: 0 !important;
 	}
 	.route3 div:nth-child(2) img{
-		height: 92% !important;
-		margin-top: 0 !important;
+		/*height: 92% !important;*/
+		margin-top: 12px !important;
 	}
 
 }
@@ -392,19 +397,19 @@ and (max-device-width : 1279px) {
 	}
 
 	.route1 div:nth-child(2) div img{
-		height: 100% !important;
+		
 	}
 
 	.route2 div img{
-		height: 100% !important;
+		
 	}
 
 	.route3 div:nth-child(2){
-		margin-top: 7px !important;
+		/*margin-top: 10px !important;*/
 	}
 	.route3 div:nth-child(2) img{
-		height: 93% !important;
-		margin-top: 0 !important;
+		/*height: 93% !important;*/
+		margin-top: 2px !important;
 	}
 }
 

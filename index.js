@@ -49,6 +49,25 @@ $(document).ready(main());
 
 function main() {
 
+  $('#routingSection .route1').mouseover(function(){
+    $(this).css( 'cursor', 'pointer' );
+  });
+  $('#routingSection .route2').mouseover(function(){
+    $(this).css( 'cursor', 'pointer' );
+  });
+  $('#routingSection .route3').mouseover(function(){
+    $(this).css( 'cursor', 'pointer' );
+  });
+  $('#routingSection .route1').on('click', function(){
+    location.href = "General Trading.html"
+  })
+  $('#routingSection .route2').on('click', function(){
+    location.href = "Fabrication.html"
+  })
+  $('#routingSection .route3').on('click', function(){
+    location.href = "Aqua.html"
+  })
+
   var $videoSrc;  
   $('.video-btn').click();
   $videoSrc = $('.video-btn').data('src');
@@ -119,4 +138,6 @@ $('#myModal').on("hidden.bs.modal", function(e) {
     }, 1000)
     
   }
+
+  
 }

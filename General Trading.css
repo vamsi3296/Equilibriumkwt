@@ -159,6 +159,17 @@ and (max-width: 1920px)  {
 }
 
 @media only screen   
+and (min-device-width : 1367px)   
+and (max-device-width : 1605px) {
+	#orange-shape{
+		right: 1.7in;
+	}
+	#purple-shape{
+		left: 3.85in;
+	}
+}
+
+@media only screen   
 and (min-width: 1281px)   
 and (max-width: 1366px)  {
 	#orange-shape{

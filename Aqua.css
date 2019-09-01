@@ -104,6 +104,29 @@ nav{
 
 
 @media only screen   
+and (min-width: 1606px)  
+and (max-width: 1920px)  {
+/*and (max-width: 1605px)  {*/
+	#orange-shape{
+		right: 3.35in;
+	}
+	#purple-shape{
+		left: 5.5in;
+	}
+}
+
+@media only screen   
+and (min-device-width : 1367px)   
+and (max-device-width : 1605px) {
+	#orange-shape{
+		right: 1.7in;
+	}
+	#purple-shape{
+		left: 3.85in;
+	}
+}
+
+@media only screen   
 and (min-width: 1281px)   
 and (max-width: 1366px)  {
 	#orange-shape{

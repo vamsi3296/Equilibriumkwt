@@ -147,6 +147,18 @@ nav{
 }
 
 @media only screen   
+and (min-width: 1370px)  
+and (max-width: 1920px)  {
+/*and (max-width: 1605px)  {*/
+	#orange-shape{
+		right: 3.35in;
+	}
+	#purple-shape{
+		left: 5.5in;
+	}
+}
+
+@media only screen   
 and (min-width: 1281px)   
 and (max-width: 1366px)  {
 	#orange-shape{
